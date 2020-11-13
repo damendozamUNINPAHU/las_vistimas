@@ -1,17 +1,18 @@
-print("Ingrese los datos solicitados")
+print("Ingrese los datos solicitados
+")
 condition = input(1)
-condition = input(2)
-condition = input(3)
 if condition:1
 else:
-    lastName = input("Ingrese los apellidos")
-    initialsName = input("Ingrese iniciales del nombre seguido de punto")
+    lastName = input("Ingrese apellidos")
+    initialName = input("Ingrese iniciales del nombre Ej. R.A.")
     year = input("Ingrese año")
     title = input("Ingrese título")
     city = input("Ingrese ciudad")
     publisher = input("Ingrese editorial")
-    link = input("Ingrese enlace")
-print(lastName + ", " + initialsName +" (" + year + "). " + title +  ". " + city + ". " + publisher + ". " + "Recuperado de: " + link)
+    and
+    print(" (" + lastNames + ", "  + year + ").")
+    print(lastName + ", " + initialNames +" (" + year + "). " + title +  ". " + city + ". " + publisher + ".")
+condition = input(2)
 if condition:2
 else:
     print("Ingrese los datos solicitados")
@@ -20,8 +21,9 @@ else:
     title = input("Ingrese título")
     city = input("Ingrese ciudad")
     publisher = input("Ingrese editorial")
-    link = input("Ingrese enlace")
-    print(corporativeName +" (" + year + "). " + title +  ". " + city + ". " + publisher + ". " + "Recuperado de: " + link)
+    print(" (" + corporativeName + ", "  + year + ").")
+    print(corporativeName +" (" + year + "). " + title +  ". " + city + ". " + publisher + ".")
+condition = input(3)
 if condition:3
 else:
     print(3)
@@ -30,5 +32,5 @@ else:
     year = input("Ingrese año")
     city = input("Ingrese ciudad")
     publisher = input("Ingrese editorial")
-    link = input("Ingrese enlace")
-    print(title +" (" + year + "). " + city + ". " + publisher + ". " + "Recuperado de: " +  link)
+    print(" (" + title + ", "  + year + ").")
+    print(title +" (" + year + "). " + city + ". " + publisher + ".")
