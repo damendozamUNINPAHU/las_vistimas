@@ -1,9 +1,6 @@
-print("Ingrese los datos solicitados")
-condition = input(1)
-condition = input(2)
-condition = input(3)
-if condition:1
-else:
+
+condition = int(input("Ingrese los datos solicitados para generar la cita de un libro electrónico: 1. autor personal, 2. autor Institucional, 3. sin autor"))
+if condition==1:
     lastName = input("Ingrese los apellidos")
     initialsName = input("Ingrese iniciales del nombre seguido de punto")
     year = input("Ingrese año")
@@ -11,9 +8,8 @@ else:
     city = input("Ingrese ciudad")
     publisher = input("Ingrese editorial")
     link = input("Ingrese enlace")
-print(lastName + ", " + initialsName +" (" + year + "). " + title +  ". " + city + ". " + publisher + ". " + "Recuperado de: " + link)
-if condition:2
-else:
+    print(lastName + ", " + initialsName +" (" + year + "). " + title +  ". " + city + ". " + publisher + ". " + "Recuperado de: " + link)
+elif condition==2:
     print("Ingrese los datos solicitados")
     corporativeName = input("Ingrese Instituciòn")
     year = input("Ingrese año")
@@ -22,8 +18,7 @@ else:
     publisher = input("Ingrese editorial")
     link = input("Ingrese enlace")
     print(corporativeName +" (" + year + "). " + title +  ". " + city + ". " + publisher + ". " + "Recuperado de: " + link)
-if condition:3
-else:
+elif condition==3:
     print(3)
     print("Ingrese los datos solicitados")
     title = input("Ingrese título")
@@ -32,3 +27,5 @@ else:
     publisher = input("Ingrese editorial")
     link = input("Ingrese enlace")
     print(title +" (" + year + "). " + city + ". " + publisher + ". " + "Recuperado de: " +  link)
+else: 
+    print("error en el ingreso de datos")
